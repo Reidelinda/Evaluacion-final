@@ -1,0 +1,22 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" transform="rotate(-23.133865356445312 284.12100219726557,165.92163085937506) " id="svg_3" d="m212.830788,20.714166c0,0 372.863306,180.719556 97.654675,275.00802c-275.208631,94.288464 -97.654675,-275.00802 -97.654675,-275.00802z" stroke-opacity="null" stroke-width="0" fill="#00bf00"/>
+  <text filter="url(#svg_1_blur)" stroke="#000" transform="rotate(-36.957454681396484 230.70533752441395,141.30616760253903) matrix(1.7440197978036582,0,0,3.7762022600016643,-129.04395417326043,-476.51529047611984) " font-weight="bold" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="24" id="svg_1" y="171.776605" x="180.272086" fill="#ff0000">RGB</text>
+  <path id="svg_2" stroke-width="0" stroke="#000" fill="#ff0000"/>
+  <text font-weight="bold" stroke="#000" transform="rotate(-39.80537796020508 303.87655639648443,213.0409851074219) matrix(1.2637563200538935,0,0,3.455614007766655,37.59776466004655,-371.3716262234754) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="24" id="svg_4" y="177.210532" x="132.70005" stroke-opacity="null" fill="#ff0000">TECNOLOGY</text>
+ </g>
+</svg>

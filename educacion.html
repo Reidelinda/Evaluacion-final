@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Contiene información de mi hoja personal">
+	<title>Inicio</title>
+</head>
+<body style="background:#66CDAA">
+	<center>
+		<header style="background: white;">
+			<!--Logo-->
+			<!-- <img src="..img/logo.svg" width="200px" height="150px"> -->
+			<svg >
+				<image width="200px" heigth="150px" xlink:href="img/logo.svg"></image>
+			</svg>
+		</header>
+		<!--Datos personales-->
+		<h1 style="color:red">Hoja de vida</h1>
+			<h2 style="color:blue">Nombres y apellidos:</h2>
+				<h3>Reidelinda Ramírez Yahuarcani</h3>
+			<h2 style="color:blue">Fecha de nacimiento:</h2>
+				<h3>29 de diciembre de 1983</h3>
+			<h2 style="color:blue">Lugar de nacimiento:</h2>
+				<h3>Iquitos - Loreto - Perú</h3>
+		<nav>
+		<!--Enlaces de menús-->
+		<ul style="list-style-type: none;font-size: 18pt">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+
+		<!--Datos educación-->
+		<h2>Educación</h2>
+			<table border="1" style="text-align: center;font-size: 14pt;">
+				<thead>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2006</td>
+						<td>SENATI</td>
+						<td>Iquitos</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>2007</td>
+						<td>Instituto Superior "Emilio Romero"</td>
+						<td>Iquitos</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>2008</td>
+						<td>SENATI</td>
+						<td>Iquitos</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>2012</td>
+						<td>Universidad Peruana del Oriente</td>
+						<td>Iquitos</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>2016</td>
+						<td>Universidad Enrique Guzman y Valle</td>
+						<td>Iquitos</td>
+						<td>En tránsito</td>
+					</tr>
+				</tbody>
+			</table><br><br>
+			<table>
+				<tbody>
+					<h2>Agregar estudios</h2>
+					<form>
+						<tr>
+							<td style="text-align:right;">Año:</td>
+							<td>
+							<select>
+								<option>2005</option>
+								<option>2006</option>
+								<option>2007</option>
+								<option>2008</option>
+								<option>2009</option>
+								<option>2010</option>
+								<option>2011</option>
+								<option>2012</option>
+								<option>2013</option>
+								<option>2014</option>
+								<option>2015</option>
+								<option>2016</option>
+								<option>2017</option>
+								<option>2018</option>
+
+							</select>
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">Institución:</td>
+							<td>
+								<input type="text" name="institucion" required size="40px">
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">Lugar:</td>
+							<td>
+								<textarea rows="6" cols="41"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<th colspan="2">
+								<input type="submit" name="enviar" value="Enviar">
+							</th>
+						</tr>
+					</form>
+				</tbody>
+			</table>
+	</center>
+</body>
+<footer style="text-align: center; font-size: 16pt;background: white;">
+	<p>Correo electrónico: reina_ramirez5@hotmail.com | Móvil: 947806092 | Dirección: Iquitos - Perú | Año: 2018</p>
+</footer>
+</html>
